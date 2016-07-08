@@ -2,7 +2,12 @@
 
 #Install programs that can be installed through APT.
 
-sudo apt-get install -y 0ad audacious audacity audex axel backintime-gnome build-essential chromium-browser clang cmake cryptsetup curl darktable digikam flac fslint gcolor2 geoclue-2.0 gimp-ufraw git git-gui gitk gnome-search-tool gnupg2 gpa gparted hddtemp iotop jpegoptim kcalc kdenlive lame lm-sensors mumble nmap oathtool openshot openssh-server opus-tools p7zip-full playonlinux psensor redshift soundconverter steam testdisk thunderbird trickle unetbootin unoconv vinagre virt-manager vorbis-tools wine
+sudo apt-get install -y 0ad audacious audacity audex axel backintime-gnome build-essential \
+chromium-browser clang cmake cryptsetup curl darktable digikam flac fslint gcolor2 \
+geoclue-2.0 gimp-ufraw git git-gui gitk gnome-search-tool gnupg2 gpa gparted hddtemp \
+iotop jpegoptim kcalc kdenlive lame lm-sensors mumble nmap oathtool openshot \
+openssh-server opus-tools p7zip-full playonlinux psensor redshift soundconverter steam testdisk \
+thunderbird trickle unetbootin unoconv vinagre virt-manager vorbis-tools wine
 
 
 # Install simplescreenrecorder
