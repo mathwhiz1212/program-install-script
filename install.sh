@@ -44,11 +44,3 @@ sudo ufw enable
 #Install Open Sans font
 
 sudo mv OpenSans /usr/share/fonts/truetype/
-
-
-#Download, mark as executable and run Minecraft
-
-wget -O ~/.minecraft/Minecraft.jar https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
-sudo chmod +x Minecraft.jar
-java -jar Minecraft.jar
-
