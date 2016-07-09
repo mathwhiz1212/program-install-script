@@ -1,5 +1,15 @@
 #!/bin/bash
 
+
+#Open ports and enable firewall.
+
+sudo ufw allow 22
+sudo ufw allow 2015
+sudo ufw allow 5900
+sudo ufw allow 20595
+sudo ufw allow 25565
+sudo ufw enable
+
 #Install programs that can be installed through APT.
 
 sudo apt-get install -y 0ad audacious audacity audex axel backintime-gnome build-essential \
@@ -29,16 +39,6 @@ rm atomdeb.deb
 INSTALL_FAIL2BAN=yes
 
 wget -nv https://raw.githubusercontent.com/coolaj86/node-install-script/master/setup.bash -O - | bash
-
-
-#Open ports and enable firewall.
-
-sudo ufw allow 22
-sudo ufw allow 2015
-sudo ufw allow 5900
-sudo ufw allow 20595
-sudo ufw allow 25565
-sudo ufw enable
 
 
 #Install Open Sans font
