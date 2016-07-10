@@ -12,6 +12,8 @@ sudo ufw enable
 
 #Install programs that can be installed through APT.
 
+sudo apt-get update
+
 sudo apt-get install -y 0ad audacious audacity audex axel backintime-gnome build-essential \
 chromium-browser clang cmake cryptsetup curl darktable digikam flac fslint gcolor2 \
 geoclue-2.0 gimp-ufraw git git-gui gitk gnome-search-tool gnupg2 gpa gparted hddtemp \
